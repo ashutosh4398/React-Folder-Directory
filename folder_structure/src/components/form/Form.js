@@ -1,5 +1,4 @@
-import { useState, useEffect } from "react";
-import { FaAngleRight, FaAngleDown } from "react-icons/fa";
+import { useState } from "react";
 import "./Form.css";
 
 const Form = ({type="BODY", data: textData="", nodeName,  addChild, path, children}) => {
@@ -14,7 +13,7 @@ const Form = ({type="BODY", data: textData="", nodeName,  addChild, path, childr
     const onInputElemChange = (e) => {
         addChild(e.target.value, path, true, false)
     }
-    
+
     const bodyForm = () => {
         return (
             <div className="folder__body">
