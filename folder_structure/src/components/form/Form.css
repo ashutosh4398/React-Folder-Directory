@@ -1,0 +1,21 @@
+#headerNAme {
+    border: none;
+    background-color: transparent;
+    position: relative;
+}
+
+#headerNAme:focus {
+    border: none;
+    outline: none;
+}
+
+.folder-header-form {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.folder-header-form button {
+    /* border: 2px solid black !important; */
+    height: 100%;
+}
